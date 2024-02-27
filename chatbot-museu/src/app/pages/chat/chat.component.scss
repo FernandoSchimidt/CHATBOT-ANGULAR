@@ -1,0 +1,28 @@
+.chat-wraper {
+
+    border-bottom: 1px solid gray;
+   
+    header {
+        display: flex;
+        padding: 10px;
+        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+
+        button {
+            border: none;
+            background-color: #fff;
+        }
+
+        p {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        span {
+            font-weight: 500;
+            color: var(--online-color);
+        }
+
+    }
+}
