@@ -1,7 +1,7 @@
 .chat-wraper {
 
     border-bottom: 1px solid gray;
-   
+
     header {
         display: flex;
         padding: 10px;
@@ -24,5 +24,9 @@
             color: var(--online-color);
         }
 
+    }
+
+    .chat-content {
+        height: 100%;
     }
 }
